@@ -12,7 +12,9 @@
     "typegen": "sanity schema extract --enforce-required-fields --path=./src/sanity/extract.json && sanity typegen generate"
   },
   "dependencies": {
+    "@sanity/cli": "^4.15.0",
     "@sanity/client": "^7.12.1",
+    "@sanity/desk-tool": "^2.36.2",
     "@sanity/icons": "^3.7.4",
     "@sanity/image-url": "1",
     "@sanity/vision": "4",
